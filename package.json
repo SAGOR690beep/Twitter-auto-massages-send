@@ -1,15 +1,16 @@
 {
-  "name": "nodejs",
+  "name": "twitter-auto-post-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Islamic Auto Tweet Bot every 5 minutes using Twitter API V2",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^22.13.11"
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.2",
+    "twitter": "^1.7.1",
+    "twitter-api-v2": "^1.19.1"
   }
 }
